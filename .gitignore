@@ -1,0 +1,13 @@
+# Material didático pesado (~87M) — fora do versionamento
+livros/
+*.pdf
+*.pptx
+*.docx
+
+# Estado transitório do Reversa
+.reversa/context/
+.claude/state/
+.claude/sessions/
+
+# Opt-in do adversarial harness (modo always-on dispensa)
+.adversarial-review.yml
